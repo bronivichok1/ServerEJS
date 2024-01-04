@@ -1,0 +1,11 @@
+body{
+    color:#fff;
+    background: #333;
+    text-align: center;
+    padding-top: 100px;
+}
+a{
+    color: red;
+    text-decoration: none;
+}
+a:hover{text-decoration: underline}
