@@ -10,25 +10,34 @@
 <body>
 <h1>Login</h1>
 <br>
+<form method="post" action="/check-userdata">
 <input
         type="text"
+        name="username"
         class="form-control mb-2"
         placeholder="Login"
-        id="inputLogin"
+        id="login"
         value=""
 />
+
 <br>
+
 <input
-        type="text"
+        type="password"
+        name="password"
         class="form-control mb-2"
         placeholder="Password"
-        id="inputPassword"
+        id="password"
         value=""
 />
+
 <br>
-<a href="index">Login</a>
+
+    <button
+        type="submit">Login
+    </button>
+</form>
 <br>
 <a href="Reg">Registration</a>
-
 </body>
 </html>
